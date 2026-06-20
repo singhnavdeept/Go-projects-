@@ -1,0 +1,8 @@
+schedule: "0 */6 * * *"   # Run every 6 hours
+cleanup:
+  stopped_containers: true
+  dangling_images: true
+  unused_volumes: false
+thresholds:
+  containers_older_than: "24h" # Only clean up containers stopped for more than 24 hours
+dry_run: false

@@ -1,0 +1,8 @@
+# Compiled binary
+docker-cleanup-daemon.exe
+
+# Logs
+*.log
+
+# Design / local guide
+ARCHITECTURE.md
